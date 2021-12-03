@@ -82,14 +82,9 @@ class AddShoeFragment : Fragment() {
                     null
                 }
             }
-            fragmentViewModel.sizeIsCorrect.observe(viewLifecycleOwner) {
-                textInputLayoutSize.error = if (!it) {
-                    getString(R.string.error_field_must_not_be_empty)
-                } else {
-                    null
-                }
+
             }
-        }
+
         return binding.root
     }
 
