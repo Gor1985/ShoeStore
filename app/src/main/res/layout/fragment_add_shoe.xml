@@ -88,6 +88,14 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <EditText
+                android:id="@+id/editTextTextPersonSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Size"
+                android:inputType="textPersonName" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textInputLayoutSize"
                 android:layout_width="match_parent"
